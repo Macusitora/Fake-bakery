@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+body {
+    background-color: rgb(253, 201, 132);
+
+    font: normal 16px 'Old Standard TT', serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 100%;
+    
+}
+.icon {
+    
+    width: 15px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-color1 {
+    background: #800000;
+}
+
+.bg-color2 {
+    background: #A52A2A;
+}
+
+.bg-color3 {
+    background: #A0522D;
+}
+
+.bg-color4 {
+    background: #D2691E;
+}
+
+.bg-color5 {
+    background: #CD853F;
+}
+
+.bg-color6 {
+    background: #F4A460;
+}
+
+.bg-color7 {
+    background: #DEB887;
+}
+
+.bg-color8 {
+    background: #BC8F8F;
+}
+
+.whatsup {
+    width: 100%;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 30px;
+}
+
+.table td:nth-child(2) {
+    color: green;
+}
+
+.table tr:nth-child(even) { /* even - для четных, odd - для нечетных элементов*/
+    background: #CD853F;
+}
+
+.link-list {
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.link-list li {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    border-bottom: 1px dotted maroon;
+}
+
+.logo-lim {
+    text-align: center;
+}
+
+#logo2 {
+    border-radius: 100%;
+}
+
+.inquiry{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card1 {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.form-group {
+    padding-top: 0;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: black;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;  /* Это прозрачность */
+    border-bottom: 1px dotted maroon;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Old Standard TT', serif;
+    text-align: start;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row> .form-group {
+    width: 50%;
+}
+
+.btn {
+    background-color: maroon;
+    color: goldenrod;
+    border-radius: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-family: 'Old Standard TT', serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
